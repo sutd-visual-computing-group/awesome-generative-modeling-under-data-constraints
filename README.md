@@ -5,7 +5,7 @@
 
 
 # A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot
-### [Project Page](https://gmdc-survey.github.io) | [Paper](https://gmdc-survey.github.io) | [Bibtex](#bibtex)
+### [Project Page](https://gmdc-survey.github.io) | [Paper](https://arxiv.org/abs/2307.14397) | [Bibtex](#bibtex)
 [Milad Abdollahzadeh](https://miladabd.github.io/), [Touba Malekzadeh](https://scholar.google.com/citations?user=DgnZKiQAAAAJ&hl=en)\*, [Christopher T. H. Teo](https://scholar.google.com/citations?user=JhyGETcAAAAJ&hl=en)\*, [Keshigeyan Chandrasegaran](https://keshik6.github.io/)\*, [Guimeng Liu](https://scholar.google.com/citations?user=wJskd84AAAAJ&hl=en&oi=sra), [Ngai-Man Cheung](https://sites.google.com/site/mancheung0407/)<span>&#8224;</span>
 <br>
 (* Equal contribution, <span>&#8224;</span> Corresponding author)
@@ -24,7 +24,7 @@ study interactions between different GM-DC tasks and approaches. Furthermore, we
 research trends, and potential avenues for future exploration.
 
 ##  :earth_americas: News
-* **July 27, 2023:** First release (113 works included)!
+* **July 28, 2023:** First release (113 works included)!
 
 <!-- ## Generative Modeling Tasks
 Please refer to our survey paper for more details on the task definitions.
