@@ -242,18 +242,27 @@ Please refer to our survey paper for more details on the task definitions.
 
 
 
-
+@misc{abdollahzadeh2023survey,
+      title={A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot}, 
+      author={Milad Abdollahzadeh and Touba Malekzadeh and Christopher T. H. Teo and Keshigeyan Chandrasegaran and Guimeng Liu and Ngai-Man Cheung},
+      year={2023},
+      eprint={2307.14397},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 
 
 
 ## Citation
 <a name="bibtex"></a>
 If you find this repo useful, please cite our paper
-<pre><code class="language-bib" style="font-size: 0.9rem;" id="citation">@article{Abdollahzadeh2023GMDC,
-  author  = {Abdollahzadeh, Milad and Malekzadeh, Touba and Teo, Christopher C. H. and Chandrasegaran, Keshigeyan and Liu, Guimeng and Cheung, Ngai-Man},
-  title   = {A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot},
-  journal = {arXiv},
-  year={2023}
+<pre><code class="language-bib" style="font-size: 0.9rem;" id="citation">@article{abdollahzadeh2023survey,
+      title={A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot}, 
+      author={Milad Abdollahzadeh and Touba Malekzadeh and Christopher T. H. Teo and Keshigeyan Chandrasegaran and Guimeng Liu and Ngai-Man Cheung},
+      year={2023},
+      eprint={2307.14397},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 </code></pre>
 
