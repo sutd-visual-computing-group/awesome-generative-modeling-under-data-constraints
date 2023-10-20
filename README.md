@@ -11,7 +11,10 @@
 (* Equal contribution, <span>&#8224;</span> Corresponding author)
 
 
-This repo contains papers with public code implementations for Generative Modeling under Data Constraint (GM-DC).
+This repo contains the list of papers with public code implementations for Generative Modeling under Data Constraint (GM-DC).
+For each work, we determine the generative task(s) addressed, the approach, and the type of generative model used. 
+
+First, we define the generative tasks, and the approach definition, and then provide our comprehensive list of the works for GM-DC with the required details for each work.
 
 
 ## :star: Overview
@@ -23,8 +26,30 @@ and propose two taxonomies: one on GM-DC tasks and another on GM-DC approaches. 
 study interactions between different GM-DC tasks and approaches. Furthermore, we highlight research gaps,
 research trends, and potential avenues for future exploration.
 
-##  :earth_americas: News
+##  :earth_asia: News
 * **July 28, 2023:** First release (113 works included)!
+
+
+## Generative Tasks Definition
+We define 8 different generative tasks under data constraints based on the rigorous review of the literature. The description of these tasks can be found in the follwing table:
+
+| Task | Description & Example | Illustration |
+|:---------|:---------------------:|:------------:|
+| **uGM-1** | **Description:** Given $K$ samples from a domain $\mathcal{D}$, learn to generate diverse and  high-quality samples from $\mathcal{D}$ <br /> **Example:** [ADA](https://arxiv.org/abs/2006.06676) learns a StyleGAN2 using 1k images from AFHQ-Dog| ![uGM1](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/967c4143-a7e0-48d7-b2d3-9a8081ef8bd4)|
+| **uGM-2** | **Description:** Given a pre-trained generator on a source domain $\mathcal{D}_s$ and $K$ samples from a target domain $\mathcal{D}_t$, learn to generate diverse and high-quality samples from $\mathcal{D}_t$ <br /> **Example:** [CDC](https://arxiv.org/abs/2104.06820) adapts a pre-trained GAN on FFHQ (Human Faces) to Sketches using 10 samples| ![uGM2](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/2aee1f12-75ac-4d6b-af17-1f4ff34ff83b)|
+| **uGM-3** | **Description:** Given a pre-trained generator on a source domain $\mathcal{D}_s$ and a text prompt describing a target domain $\mathcal{D}_t$, learn to generate diverse and high-quality samples from $\mathcal{D}_t$ <br /> **Example:** [StyleGAN-NADA](https://arxiv.org/abs/2108.00946) adapts pre-trained GAN on FFHQ to the painting domain using `Fernando Botero Painting` as input| ![uGM3](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/e1058a8c-1ee8-4de5-9300-e433f663b0b0)|
+| **cGM-1** | **Description:** Given $K$ samples with class labels from a domain $\mathcal{D}$, learn to generate diverse and high-quality samples conditioning on the class labels from $\mathcal{D}$ <br /> **Example:** [CbC](https://arxiv.org/abs/2201.06578) trains conditional generator on 20 classes of ImageNet Carnivores using 100 images per class | ![cGM1](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/881983a1-be7c-444a-966b-ed498faabac7)|
+| **cGM-2** | **Description:** Given a pre-trained generator on the seen classes $C_{seen}$ of a domain $\mathcal{D}$ and $K$ samples with class labels from unseen classes $C_{unseen}$ of $\mathcal{D}$, learn to generate diverse and high-quality samples conditioning on the class labels for $C_{unseen}$ from $\mathcal{D}$ <br /> **Example:** [LoFGAN](https://ieeexplore.ieee.org/document/9710556) learns from 85 classes of Flowers to generate images for an unseen class with only 3 samples| ![cGM2](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/aa20e12a-2d9c-4286-8bcf-666afede5867) |
+| **cGM-3** | **Description:** Given a pre-trained generator on a source domain $\mathcal{D}_s$ and $K$ samples with class labels from a target domain $\mathcal{D}_t$ , learn to generate diverse and high-quality samples conditioning on the class labels from $\mathcal{D}_t$ <br /> **Example:** [VPT](https://arxiv.org/abs/2210.00990) adapts a pre-trained conditional generator on ImageNet to Places365 with 500 images per class| ![cGM3](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/1534ca14-cbc4-4c61-8c11-dc4f7706e37c)|
+| **IGM** | **Description:** Given $K$ samples (usually $K=1$) and assuming rich internal distribution for patches within these samples, learn to generate diverse and high-quality samples with the same internal patch distribution <br /> **Example:** [SinDDM](https://arxiv.org/abs/2211.16582) trains a generator using a single image of Marina Bay Sands, and generates variants of it | ![IGM](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/7e259d3e-f274-4448-97dd-9fd4ec87fd89)|
+| **SGM** | **Description:** Given a pre-trained generator, $K$ samples of a particular subject, and a text prompt, learn to generate diverse and high-quality samples containing the same subject <br /> **Example:** [DreamBooth](https://arxiv.org/abs/2208.12242) trains a  generator using 4 images of a particular backpack and adapts it with a text-prompt to be in the `grand canyon` | ![SGM](https://github.com/gmdc-survey/GMDC-Survey/assets/29326313/78c57af9-2985-4f98-b3eb-2535bf53ba81)|
+
+Please refer to our survey for a more detailed discussion of these generative tasks including the attributes of each task and the data limitation range that addressed for each task.
+
+
+
+
+
 
 <!-- ## Generative Modeling Tasks
 Please refer to our survey paper for more details on the task definitions.
