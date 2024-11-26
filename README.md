@@ -27,7 +27,7 @@ study interactions between different GM-DC tasks and approaches. Furthermore, we
 research trends, and potential avenues for future exploration.
 
 ##  :earth_asia: News
-* **Oct 28, 2024:** The slides for our ICIP tutorial on *"Generative Modeling for Limited Data, Few Shots and Zero Shot"* can be found [here](https://sutdapac-my.sharepoint.com/my?id=%2Fpersonal%2Fmilad%5Fabdollahzadeh%5Fsutd%5Fedu%5Fsg%2FDocuments%2F%5BICIP%202024%20Tutorial%5D%20Generative%20Modeling%20with%20Limited%20Data%2C%20Few%20Shots%2C%20and%20Zero%20Shot%2Epdf&parent=%2Fpersonal%2Fmilad%5Fabdollahzadeh%5Fsutd%5Fedu%5Fsg%2FDocuments&ga=1).
+* **Oct 28, 2024:** The slides for our ICIP tutorial on *"Generative Modeling for Limited Data, Few Shots and Zero Shot"* can be found [here](https://drive.google.com/file/d/1L4k2VTywZDnIhl51Or4I-kOcMt26CSP4/view?usp=sharing).
 * **July 28, 2023:** First release (113 works included)!
 
 
