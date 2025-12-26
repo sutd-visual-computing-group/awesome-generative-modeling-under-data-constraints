@@ -27,6 +27,7 @@ study interactions between different GM-DC tasks and approaches. Furthermore, we
 research trends, and potential avenues for future exploration.
 
 ##  :earth_asia: News
+* **Dec 24, 2025:** Our paper is accepted by TMLR!!!
 * **July 15, 2025:** 120 new works added (233 works total)!
 * **Oct 28, 2024:** The slides for our ICIP tutorial on *"Generative Modeling for Limited Data, Few Shots and Zero Shot"* can be found [here](https://drive.google.com/file/d/1L4k2VTywZDnIhl51Or4I-kOcMt26CSP4/view?usp=sharing).
 * **July 28, 2023:** First release (113 works included)!
