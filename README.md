@@ -5,7 +5,7 @@
 
 
 # A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot
-### [Project Page](https://gmdc-survey.github.io) | [Paper](https://arxiv.org/abs/2307.14397) | [Bibtex](#bibtex)
+### [Project Page](https://sutd-visual-computing-group.github.io/gmdc-survey/) | [Paper](https://openreview.net/forum?id=u7GTHazuRp) | [Bibtex](#bibtex)
 [Milad Abdollahzadeh](https://miladabd.github.io/)\*, [Guimeng Liu](https://scholar.google.com/citations?user=wJskd84AAAAJ&hl=en&oi=sra)\*, [Touba Malekzadeh](https://scholar.google.com/citations?user=DgnZKiQAAAAJ&hl=en)<span>&#8224;</span>, [Christopher T. H. Teo](https://scholar.google.com/citations?user=JhyGETcAAAAJ&hl=en)<span>&#8224;</span>, [Keshigeyan Chandrasegaran](https://keshik6.github.io/)<span>&#8224;</span>, [Ngai-Man Cheung](https://sites.google.com/site/mancheung0407/)<span>&#8225;</span>
 <br>
 (* Equal first-author contribution, <span>&#8224;</span> Equal second-author contribution，<span>&#8225;</span> Corresponding author)
@@ -395,13 +395,20 @@ Please refer to our survey paper for more details on the task definitions.
 ## Citation
 <a name="bibtex"></a>
 If you find this repo useful, please cite our paper
-<pre><code class="language-bib" style="font-size: 0.9rem;" id="citation">@article{abdollahzadeh2023survey,
-      title={A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot}, 
-      author={Milad Abdollahzadeh and Touba Malekzadeh and Christopher T. H. Teo and Keshigeyan Chandrasegaran and Guimeng Liu and Ngai-Man Cheung},
-      year={2023},
-      eprint={2307.14397},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+<pre><code class="language-bib" style="font-size: 0.9rem;" id="citation">@article{abdollahzadeh2025a,
+  author    = {Milad Abdollahzadeh 
+              and Guimeng Liu 
+              and Touba Malekzadeh 
+              and Christopher T.H Teo 
+              and Keshigeyan Chandrasegaran 
+              and Ngai-Man Cheung
+                  },
+  title     = {A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot},
+  journal   = {Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2025},
+  url={https://openreview.net/forum?id=u7GTHazuRp},
+
 }
 </code></pre>
 
