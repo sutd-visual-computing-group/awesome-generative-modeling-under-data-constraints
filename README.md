@@ -5,7 +5,7 @@
 
 
 # A Survey on Generative Modeling with Limited Data, Few Shots, and Zero Shot
-### [Project Page](https://sutd-visual-computing-group.github.io/gmdc-survey/) | [Paper](https://openreview.net/forum?id=u7GTHazuRp) | [Bibtex](#bibtex)
+### [Project Page](https://sutd-visual-computing-group.github.io/gmdc-survey/) | [Paper](https://openreview.net/pdf?id=u7GTHazuRp) | [Bibtex](#bibtex)
 [Milad Abdollahzadeh](https://miladabd.github.io/)\*, [Guimeng Liu](https://scholar.google.com/citations?user=wJskd84AAAAJ&hl=en&oi=sra)\*, [Touba Malekzadeh](https://scholar.google.com/citations?user=DgnZKiQAAAAJ&hl=en)<span>&#8224;</span>, [Christopher T. H. Teo](https://scholar.google.com/citations?user=JhyGETcAAAAJ&hl=en)<span>&#8224;</span>, [Keshigeyan Chandrasegaran](https://keshik6.github.io/)<span>&#8224;</span>, [Ngai-Man Cheung](https://sites.google.com/site/mancheung0407/)<span>&#8225;</span>
 <br>
 (* Equal first-author contribution, <span>&#8224;</span> Equal second-author contribution，<span>&#8225;</span> Corresponding author)
